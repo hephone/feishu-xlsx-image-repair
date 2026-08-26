@@ -49,13 +49,13 @@ Never overwrite the original workbook. Write to a new file, such as `<source-ste
 Run this command from the repository root:
 
 ```bash
-python3 .codex/skills/feishu-xlsx-image-repair/scripts/repair_image_anchors.py "SOURCE.xlsx" "OUTPUT_等比例修复.xlsx"
+python3 skills/feishu-xlsx-image-repair/scripts/repair_image_anchors.py "SOURCE.xlsx" "OUTPUT_等比例修复.xlsx"
 ```
 
 例如 / Example:
 
 ```bash
-python3 .codex/skills/feishu-xlsx-image-repair/scripts/repair_image_anchors.py "投流充值记录.xlsx" "投流充值记录_等比例修复.xlsx"
+python3 skills/feishu-xlsx-image-repair/scripts/repair_image_anchors.py "投流充值记录.xlsx" "投流充值记录_等比例修复.xlsx"
 ```
 
 也可以在其他目录运行，但需传入正确的脚本路径和文件路径，例如：
