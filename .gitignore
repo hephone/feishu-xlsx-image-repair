@@ -1,0 +1,41 @@
+# macOS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Codex local state; keep project skills shareable
+.codex/*
+!.codex/skills/
+!.codex/skills/**
+.codex/skills/.DS_Store
+
+# Personal business files kept outside Git
+/*.xlsx
+/*.xls
+/*.png
+
+# Dependencies and build output
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Temporary files and generated office lock files
+tmp/
+temp/
+*.tmp
+~$*
